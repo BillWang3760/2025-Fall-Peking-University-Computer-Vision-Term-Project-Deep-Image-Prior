@@ -14,3 +14,9 @@ https://github.com/DmitryUlyanov/deep-image-prior
 现在你所看到的代码可以直接在Google Colab上运行，不需要其他任何配置。我们也准备了可以在本地运行的版本，如果你确有需要，请联系我们。
 
 这一部分代码还增加了多尺度DIP图象重绘的实现，这是我们工作中的一个创新点，希望你喜欢。
+
+## DIP blending
+
+打开deep-image-prior后最上方的文件夹即为DIP blending。它的运行环境与本课程的Homework 5 / Homework 6是相同的，运行时请把models和utils拷贝到该文件夹中。
+
+这是我们工作中的另一个创新点，@liuzhonghe060718为多尺度DIP图像融合技术的设计、实现与实验付出了宝贵的心血，它在该类型任务中的表现超过了我们在Homework 2中所实现的Alpha blending / Poisson blending / Laplacian blendin，这真的很不容易。尽管DIP本身已经很难说是图像融合技术方面的主流技术，但是如果你对此————特别是对多尺度DIP图像融合技术————仍然抱有兴趣，欢迎与我们取得联系。
